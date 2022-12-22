@@ -2,6 +2,8 @@ package Clases;
 
 public class Entrenador extends Persona {
 	
+	private String idFedereacion;
+	
 	public String getIdFedereacion() {
 		return idFedereacion;
 	}
@@ -9,8 +11,6 @@ public class Entrenador extends Persona {
 	public void setIdFedereacion(String idFedereacion) {
 		this.idFedereacion = idFedereacion;
 	}
-
-	private String idFedereacion;
 	
 	public void dirigirPartido() {
 		

@@ -5,16 +5,6 @@ public class Masajista extends Persona {
 	private String titulacion;
 	private Integer aniosExperiencia;
 	
-	public void darMasaje() {
-		
-	}
-
-	@Override
-	public void concentrarse() {
-		// TODO Auto-generated method stub
-		
-	}
-
 	public String getTitulacion() {
 		return titulacion;
 	}
@@ -29,6 +19,16 @@ public class Masajista extends Persona {
 
 	public void setAniosExperiencia(Integer aniosExperiencia) {
 		this.aniosExperiencia = aniosExperiencia;
+	}
+	
+	public void darMasaje() {
+		
+	}
+
+	@Override
+	public void concentrarse() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
