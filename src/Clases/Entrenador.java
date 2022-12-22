@@ -1,19 +1,26 @@
 package Clases;
 
 public class Entrenador extends Persona {
+
+	private String idFederacion;
 	
-	private String idFedereacion;
+	public Entrenador() {
+		super();
+		
+		System.out.println("Federación de futbol a la que pertenece");
+		idFederacion = scan.nextLine();
+	}
 	
 	public String getIdFedereacion() {
-		return idFedereacion;
+		return idFederacion;
 	}
 
 	public void setIdFedereacion(String idFedereacion) {
-		this.idFedereacion = idFedereacion;
+		this.idFederacion = idFedereacion;
 	}
 	
 	public void dirigirPartido() {
-		
+		System.out.println("alineo al jugador mientras le masajeando los huevos");
 	}
 	
 	public void dirigirEntrenamiento() {
@@ -31,4 +38,5 @@ public class Entrenador extends Persona {
 		// TODO Auto-generated method stub
 		
 	}
+
 }

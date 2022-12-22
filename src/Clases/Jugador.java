@@ -5,6 +5,16 @@ public class Jugador extends Persona {
 	private Integer dorsal;
 	private String demarcacion;
 	
+	public Jugador() {
+		super();
+		
+		System.out.println("Dorsal que lucirá el jugador");
+		dorsal = Integer.parseInt(scan.nextLine());
+		
+		System.out.println("Posicion de campo en la que juega");
+		demarcacion = scan.nextLine();
+	}
+
 	public Integer getDorsal() {
 		return dorsal;
 	}
@@ -22,7 +32,7 @@ public class Jugador extends Persona {
 	}
 
 	public void jugarPartido() {
-		
+		System.out.println("Se encuentra jugando furbol");
 	}
 	
 	public void entrenar() {
